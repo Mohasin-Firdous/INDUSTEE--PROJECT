@@ -1,0 +1,677 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar */
+
+.nav-backround{
+    background-color: #F79A35;
+}
+.nav-txt{
+    margin-left: 800px;
+}
+.nav-txt a{
+    color: white !important;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.nav-txt a:hover{
+    color: #3F1A1B !important;
+    border-bottom: #3F1A1B 3px solid;
+}
+
+.nav-position{
+    position: sticky !important;
+    top: 0px ;
+    z-index: 2 !important ;
+}
+@media screen and (max-width:500px) {
+    .nav-txt{
+        margin-left: 0px;
+    }
+    .nav-txt a{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width:550px) and (max-width:1250px) {
+    .nav-txt{
+        margin-left: 0px;
+    }
+    .nav-txt a{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width:1550px) and (max-width:1930px){
+    .nav-txt{
+        margin-left: 1100px;
+    }
+}
+
+/* carosel */
+
+.carosel-txt-edit h5{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 100px;
+    width: 1000px;
+    position: relative;
+    left: 40px;
+    bottom: -20px;
+}
+.carosel-txt-edit{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 50px;
+    font-size: 50px;
+    left: 350px;
+    bottom: 200px !important;
+}
+.carosel-txt-edit button{
+   font-size: 15px !important;
+   font-family: "Moderustic", sans-serif !important;
+   background-color:  #ff9900 ;
+   color: white;
+   padding: 15px;
+   border-color: #ff9900;
+   border-radius: 20px;
+   border-style: none;
+   position: relative;
+   bottom: 30px;
+}
+@media screen and (min-width:550px) and (max-width:1250px){
+    .carosel-txt-edit h5{
+        font-family: "New Amsterdam", sans-serif;
+        font-size: 50px;
+        width: 500px;
+        position: relative;
+        left: 40px;
+        bottom: 0px;
+    }
+    .carosel-txt-edit{
+        font-family: "New Amsterdam", sans-serif;
+        font-size: 50px;
+        font-size: 50px;
+        left: 350px;
+        bottom: 90px !important;
+    }
+    .carosel-txt-edit button{
+       font-size: 15px !important;
+       font-family: "Moderustic", sans-serif !important;
+       background-color:  #ff9900 ;
+       color: white;
+       padding: 15px;
+       border-color: #ff9900;
+       border-radius: 20px;
+       border-style: none;
+       position: relative;
+       bottom: 30px;
+    }
+}
+@media screen and (min-width:1550px) and (max-width:1930px){
+    .carosel-txt-edit h5{
+        font-family: "New Amsterdam", sans-serif;
+        font-size: 80px;
+        width: 500px;
+        position: relative;
+        left: 410px;
+        bottom: -18px;
+    }
+}
+/* icon-box */
+.align-box{
+    margin-top: 100px;
+}
+.box-1{
+    width: 400px;
+    height: 350px;
+    background-color: #F8F5F3;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+.box-1 img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 160px;
+    top: 90px;
+    background-color: #F8F5F3;
+    padding: 10px;
+    border-radius: 50px;
+}
+.box-1 h3{
+    font-family: "Moderustic", sans-serif;
+    position: relative;
+    display: inline-block;
+    top: 160px;
+    left: 10px;
+}
+.box-1 p{
+    width: 300px;
+    position: relative;
+    top: 140px;
+    left: 40px;
+}
+.box-1:hover{
+    background-color: #F99634;
+    color: white;
+}
+
+/* what-we-do */
+.what-txt{
+    margin-top: 100px;
+}
+.what-txt h5{
+    font-family: "New Amsterdam", sans-serif;
+    color: #F98517;
+    font-size: 24px;
+}
+.what-txt h1{
+    font-family: "New Amsterdam", sans-serif;
+    color: #301514;
+    font-size: 80px;
+}
+/* industry-boxes */
+.ind-box-1{
+    width: 600px;
+    height: 230px;
+    background-color: white;
+    border: 2px solid;
+    border-color: #F2EDE9;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ind-box-1 img{
+    width: 200px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.ind-box-1 h5{
+    position: relative;
+    left: 80px;
+    top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+.ind-box-1 button{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 40px;
+    border-style: none;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #F2EDE9;
+    color:gray;
+    position: relative;
+    left: 350px;
+    bottom: 10px;
+}
+.ind-box-1:hover{
+background-color:#F2EDE9 ;
+color: #F79A35;
+}
+
+.ind-box-2{
+    width: 600px;
+    height: 230px;
+    background-color: white;
+    border: 2px solid;
+    border-color: #F2EDE9;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ind-box-2 img{
+    width: 200px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.ind-box-2 h5{
+    position: relative;
+    left: 50px;
+    bottom: -50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+.ind-box-2 button{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 40px;
+    border-style: none;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #F2EDE9;
+    color:gray;
+    position: relative;
+    left: 350px;
+    bottom: -20px;
+}
+.ind-box-2:hover{
+background-color:#F2EDE9 ;
+color: #F79A35;
+}
+
+.ind-box-3{
+    width: 600px;
+    height: 230px;
+    background-color: white;
+    border: 2px solid;
+    border-color: #F2EDE9;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ind-box-3 img{
+    width: 200px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.ind-box-3 h5{
+    position: relative;
+    left: 80px;
+    bottom: -50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+.ind-box-3 button{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 40px;
+    border-style: none;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #F2EDE9;
+    color:gray;
+    position: relative;
+    left: 350px;
+    bottom: -10px;
+}
+.ind-box-3:hover{
+background-color:#F2EDE9 ;
+color: #F79A35;
+}
+
+.ind-box-4{
+    width: 600px;
+    height: 230px;
+    background-color: white;
+    border: 2px solid;
+    border-color: #F2EDE9;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ind-box-4 img{
+    width: 200px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.ind-box-4 h5{
+    position: relative;
+    left: 100px;
+    bottom: -50px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.ind-box-4 button{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 40px;
+    border-style: none;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #F2EDE9;
+    color:gray;
+    position: relative;
+    left: -100px;
+    bottom: -110px;
+}
+.ind-box-4:hover{
+background-color:#F2EDE9 ;
+color: #F79A35;
+}
+
+@media screen and (max-width:500px){
+    .ind-box-1{
+        width: 300px;
+        height: 400px;
+    }
+    .ind-box-1 h5{
+        font-size: 25px;
+        width: 200px;
+        text-align: center;
+        position: relative;
+        left: 50px;
+        top: 80px;
+    }
+    .ind-box-1 button{
+        position: relative;
+        left: 80px;
+        bottom: -100px;
+    }
+    .ind-box-2{
+        width: 300px;
+        height: 400px;
+    }
+    .ind-box-2 h5{
+        font-size: 25px;
+        width: 200px;
+        text-align: center;
+        position: relative;
+        left: 50px;
+        top: 80px;
+    }
+    .ind-box-2 button{
+        position: relative;
+        left: 80px;
+        bottom: -100px;
+    }
+    .ind-box-3{
+        width: 300px;
+        height: 400px;
+    }
+    .ind-box-3 h5{
+        font-size: 25px;
+        width: 200px;
+        text-align: center;
+        position: relative;
+        left: 50px;
+        top: 80px;
+    }
+    .ind-box-3 button{
+        position: relative;
+        left: 80px;
+        bottom: -100px;
+    }
+    .ind-box-4{
+        width: 300px;
+        height: 400px;
+    }
+    .ind-box-4 h5{
+        font-size: 25px;
+        width: 200px;
+        text-align: center;
+        position: relative;
+        left: 50px;
+        top: 80px;
+    }
+    .ind-box-4 button{
+        position: relative;
+        left: 80px;
+        bottom: -100px;
+    }
+    
+}
+/* number run */
+.number-1{
+    margin-left: 70px;
+}
+.number-2{
+    margin-left: 70px;
+}
+.number-3{
+    margin-left: 70px;
+}
+.number-1 img{
+    position: relative;
+    width: 50px;
+    top: 65px;
+    left: -120px;
+}
+.number-1 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+.number-2 img{
+    position: relative;
+    width: 50px;
+    top: 70px;
+    left: -120px;
+}
+.number-2 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+.number-3 img{
+    position: relative;
+    width: 50px;
+    top: 65px;
+    left: -120px;
+}
+.number-3 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+
+/* PROJECT-TXT */
+.projects-txt{
+    margin-top: 100px;
+}
+.projects-txt h5{
+    font-family: "New Amsterdam", sans-serif;
+    color: #F98517;
+    font-size: 24px;
+}
+.projects-txt h1{
+    font-family: "New Amsterdam", sans-serif;
+    color: #301514;
+    font-size: 80px;
+}
+/* project image */
+
+@media screen and (max-width:500px){
+.proj-img{
+   margin-left: 25px;
+}
+}
+@media screen and (min-width:550px) and (max-width:1250px){
+    .proj-img{
+        margin-left: 170px;
+     }
+}
+
+/* company logo */
+.company-logo{
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+}
+@media screen and (max-width:500px){
+    .company-logo{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+       
+    }
+    }
+@media screen and (min-width:550px) and (max-width:1250px){
+    .company-logo{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+       
+    }
+}
+@media screen and (min-width:1550px) and (max-width:1930px){
+    .company-logo{
+        margin-top: 100px;
+        margin-left: 450px;
+    }
+    
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 130px;
+    }
+}
+/* footer-1 */
+
+/* .footer1-left{
+    width: 100%;
+    height: 100px;
+    background-color: #301514;
+}
+.footer1-left img{
+    width: 200px;
+    position: relative;
+    top: 30px;
+}
+
+.footer1-right{
+    background-color: #25100F;
+    width: 100%;
+    height: 100px;
+}
+.footer1-right p{
+    font-family: "New Amsterdam", sans-serif;
+    color: #F98517;
+    font-size: 24px;
+    position: relative;
+    left: 40px;
+    top: 0px;
+    display: inline;
+
+}
+.footer1-right h3{
+    font-family: "New Amsterdam", sans-serif;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    bottom: -40px;
+    left: -90px;
+    display: inline;
+}
+.email{
+    position: relative;
+    left: -20px;
+    bottom: -20px;
+    width: 500px;
+    height: 50px;
+    display: inline-block;
+}
+@media screen and (max-width:500px){
+    .email{
+        position: relative;
+        left: 0px;
+        bottom: 40px;
+        width: 150px;
+        height: 40px;
+        display: inline-block;
+    }
+} */
+
+/* footer */
+
+.footer{
+    margin-top: 100px;
+    background-color: #301514;
+    width: 100%;
+    height: 100%;
+}
+.footer-1{
+    margin-top: 100px;
+    color: white;
+}
+.footer-1 h3{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.footer-1 ul li{
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+}
+.footer-1 li:hover{
+    color: #F79A35;
+}
+.footer-2 li:hover{
+    color: #F79A35;
+}
+.footer-3 li:hover{
+    color: #F79A35;
+}
+.footer-4 li:hover{
+    color: #F79A35;
+}
+.footer-2{
+    margin-top: 100px;
+    color: white;
+}
+.footer-2 h3{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.footer-2  ul li{
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+}
+.footer-3{
+    margin-top: 100px;
+    color: white;
+}
+.footer-3 h3{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.footer-3 ul li{
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+}
+.footer-4 img{
+  width: 250px;
+  margin-top: 30px;
+  
+}
+
+/* FAB */
+.fab img{
+    width: 50px;
+    position: fixed;
+    top: 80%;
+    left: 95%;
+    z-index: 2;
+}
+@media screen and (max-width:500px){
+    .fab img{
+        top: 90%;
+        left: 85%;
+    }
+}
+@media screen and (min-width:510px) and (max-width:1050px){
+    .fab img{
+        top: 90%;
+        left: 85%;
+    }
+}
