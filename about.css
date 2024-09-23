@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar */
+
+.nav-backround{
+    background-color: #F79A35;
+}
+.nav-txt{
+    margin-left: 800px;
+}
+.nav-txt a{
+    color: white !important;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.nav-txt a:hover{
+    color: #3F1A1B !important;
+    border-bottom: #3F1A1B 3px solid;
+}
+
+.nav-position{
+    position: sticky !important;
+    top: 0px ;
+    z-index: 2 !important ;
+}
+@media screen and (max-width:500px) {
+    .nav-txt{
+        margin-left: 0px;
+    }
+    .nav-txt a{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width:550px) and (max-width:1250px) {
+    .nav-txt{
+        margin-left: 0px;
+    }
+    .nav-txt a{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width:1550px) and (max-width:1930px){
+    .nav-txt{
+        margin-left: 1100px;
+    }
+}
+
+/* blogs */
+.blog{
+    margin-top: 50px;
+}
+.blog h1{
+    font-family: "New Amsterdam", sans-serif;
+    color: #301514;
+    font-size: 60px;
+    width: fit-content;
+    display: inline-block;
+
+}
+.blog p{
+   display: inline-block;
+   font-family: "Josefin Sans", sans-serif;
+}
+.blog img{
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+}
+@media screen and (max-width:500px){
+    .blog img{
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    .blog h1{
+        font-family: "New Amsterdam", sans-serif;
+        color: #301514;
+        font-size: 30px;
+        width: fit-content;
+        display: inline-block;
+    
+    }
+}
+@media screen and (min-width:550px) and (max-width:1250px){
+    .blog img{
+        width: 600px;
+        height: 400px;
+        border-radius: 20px;
+    }
+}
+
+.blog-txt{
+    width: 800px;
+    margin-top: 50px;
+    position: relative;
+    left: 250px;
+}
+.blog-txt span{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+@media screen and (max-width:500px){
+    .blog-txt{
+        width: 400px;
+        position: relative;
+        left: 0px;
+    }
+}
+@media screen and (min-width:550px) and (max-width:1250px){
+    .blog-txt{
+        width: 500px;
+        position: relative;
+        left: 100px;
+    }
+
+}
+
+
+/* what-we-do */
+.what-txt{
+    margin-top: 100px;
+}
+.what-txt h5{
+    font-family: "New Amsterdam", sans-serif;
+    color: #F98517;
+    font-size: 24px;
+}
+.what-txt h1{
+    font-family: "New Amsterdam", sans-serif;
+    color: #301514;
+    font-size: 80px;
+}
+    
+ /* number run */
+.number-1{
+    margin-left: 70px;
+}
+.number-2{
+    margin-left: 70px;
+}
+.number-3{
+    margin-left: 70px;
+}
+.number-1 img{
+    position: relative;
+    width: 50px;
+    top: 65px;
+    left: -120px;
+}
+.number-1 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+.number-2 img{
+    position: relative;
+    width: 50px;
+    top: 70px;
+    left: -120px;
+}
+.number-2 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+.number-3 img{
+    position: relative;
+    width: 50px;
+    top: 65px;
+    left: -120px;
+}
+.number-3 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+
+/* company logo */
+.company-logo{
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+}
+@media screen and (max-width:500px){
+    .company-logo{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+       
+    }
+    }
+@media screen and (min-width:550px) and (max-width:1250px){
+    .company-logo{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+       
+    }
+}
+@media screen and (min-width:1550px) and (max-width:1930px){
+    .company-logo{
+        margin-top: 100px;
+        margin-left: 450px;
+    }
+    
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 130px;
+    }
+}
+
+
+/* footer */
+
+.footer{
+    margin-top: 100px;
+    background-color: #301514;
+    width: 100%;
+    height: 100%;
+}
+.footer-1{
+    margin-top: 100px;
+    color: white;
+}
+.footer-1 h3{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.footer-1 ul li{
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+}
+.footer-1 li:hover{
+    color: #F79A35;
+}
+.footer-2 li:hover{
+    color: #F79A35;
+}
+.footer-3 li:hover{
+    color: #F79A35;
+}
+.footer-4 li:hover{
+    color: #F79A35;
+}
+.footer-2{
+    margin-top: 100px;
+    color: white;
+}
+.footer-2 h3{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.footer-2  ul li{
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+}
+.footer-3{
+    margin-top: 100px;
+    color: white;
+}
+.footer-3 h3{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.footer-3 ul li{
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+}
+.footer-4 img{
+  width: 250px;
+  margin-top: 30px;
+  
+}
+/* FAB */
+.fab img{
+    width: 50px;
+    position: fixed;
+    top: 80%;
+    left: 95%;
+    z-index: 2;
+}
+@media screen and (max-width:500px){
+    .fab img{
+        top: 90%;
+        left: 85%;
+    }
+}
+@media screen and (min-width:510px) and (max-width:1050px){
+    .fab img{
+        top: 90%;
+        left: 85%;
+    }
+}
